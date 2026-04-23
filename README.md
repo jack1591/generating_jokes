@@ -10,6 +10,12 @@
 
 Интерфейс выполнен в стиле чата: вы пишете начало анекдота, модель отвечает вариантами продолжения.
 
+### Начальный экран чата
+<img width="1905" height="844" alt="image" src="https://github.com/user-attachments/assets/053f8786-3f52-447b-a616-8d9175ca23cd" />
+
+### Получение анекдотов по началу
+<img width="1888" height="850" alt="image" src="https://github.com/user-attachments/assets/dc72a8f1-50c2-4534-a5b8-b56137cc8efe" />
+
 ---
 
 ## Стек технологий
