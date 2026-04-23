@@ -43,7 +43,7 @@ generating_jokes/
 ### 1. Клонируйте репозиторий
 
 ```bash
-git clone https://github.com/<ваш-username>/generating_jokes.git
+git clone https://github.com/jack1591/generating_jokes.git
 cd generating_jokes
 ```
 
@@ -64,13 +64,7 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
-### 4. Скачайте веса модели
-
-Файл `model_jokes_weights.pth` не хранится в репозитории из-за размера. Скачайте его и поместите в корень проекта:
-
-> **Ссылка для скачивания:** [Google Drive / Hugging Face / Яндекс.Диск — вставьте свою ссылку]
-
-### 5. Запустите сервер
+### 4. Запустите сервер
 
 ```bash
 uvicorn main:app --reload
@@ -78,7 +72,7 @@ uvicorn main:app --reload
 
 Сервер запустится на `http://localhost:8000`.
 
-### 6. Откройте интерфейс
+### 5. Откройте интерфейс
 
 Перейдите в браузере на:
 
