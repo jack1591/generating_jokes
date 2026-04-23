@@ -116,7 +116,7 @@ app.add_middleware(
     allow_methods = ['*'],
     allow_headers = ['*']
 )
-@app.get('/')
+@app.get('/hello')
 async def hello_world():
     return {
         'message': 'Hello, World!'
@@ -144,7 +144,7 @@ async def random_joke():
     jokes = get_continuation(jokes_model, prefix, count = 1, temperature = 0.3)
     return {'joke': jokes[0]}
 
-@app.get('/ui', response_class = HTMLResponse)
+@app.get('/', response_class = HTMLResponse)
 async def ui():
     with open('joke_chat.html', 'r', encoding = 'utf-8') as f:
         return f.read()
