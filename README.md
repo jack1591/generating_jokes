@@ -52,8 +52,11 @@ generating_jokes/
 git clone https://github.com/jack1591/generating_jokes.git
 cd generating_jokes
 ```
+### 2. Скачайте веса моделей. 
+Скачайте веса моделей и поместите в корень проекта. Файл не был добавлен в репозиторий из-за размера.
+https://disk.yandex.ru/d/hTKJx0kfFF9U0w
 
-### 2. Создайте виртуальное окружение
+### 3. Создайте виртуальное окружение
 
 ```bash
 python -m venv .venv
@@ -64,13 +67,13 @@ python -m venv .venv
 - **Windows:** `.venv\Scripts\activate`
 - **Linux / macOS:** `source .venv/bin/activate`
 
-### 3. Установите зависимости
+### 4. Установите зависимости
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Запустите сервер
+### 5. Запустите сервер
 
 ```bash
 uvicorn main:app --reload
@@ -78,7 +81,7 @@ uvicorn main:app --reload
 
 Сервер запустится на `http://localhost:8000`.
 
-### 5. Откройте интерфейс
+### 6. Откройте интерфейс
 
 Перейдите в браузере на:
 
